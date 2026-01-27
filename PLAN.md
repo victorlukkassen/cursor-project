@@ -31,3 +31,13 @@ Create an AI agent that can see the screen, understand a high-level goal, and us
 - **Tasks:**
   1.  Create a Validator agent to review work.
   2.  Integrate the feedback into the Orchestrator's planning loop.
+
+---
+
+## Project Log
+
+**2026-01-28:**
+- Initialized project, created plan, and pushed to GitHub.
+- Installed `cliclick` for mouse control and granted permissions.
+- **ROADBLOCK:** Attempts to use the native macOS `screencapture` command are failing. It only captures the desktop wallpaper, not any open application windows. This prevents vision-based analysis.
+- **NEXT STEP:** Fall back to using the `browser` tool to get a reliable view of the webpage to complete the first test. The `screencapture` issue will be revisited as a separate technical challenge.
